@@ -1,5 +1,8 @@
 import {strict as assert} from 'assert';
 
+const MINIMUM_INTEGER_NUMBER = -2_147_483_648;
+const MAXIMUM_INTEGER_NUMBER = 2_147_483_647;
+
 function reverse(x: number): number {
     const isNegative = x < 0;
     if (isNegative) x *= -1;
@@ -13,7 +16,7 @@ function reverse(x: number): number {
 
     if (isNegative) result *= -1;
 
-    return -2_147_483_648 <= result && result <= 2_147_483_647 ? result : 0;
+    return MINIMUM_INTEGER_NUMBER <= result && result <= MAXIMUM_INTEGER_NUMBER ? result : 0;
 }
 
 console.time('time');
