@@ -2,7 +2,7 @@
     "name": "exercises",
     "version": "1.0.0",
     "scripts": {
-        "start": "ts-node src/9-palindrome-number.ts"
+        "start": "ts-node src/10-regular-expression-matching.ts"
     },
     "keywords": ["leetcode", "typescript", "solutions"],
     "author": "BijanProgrammer",
