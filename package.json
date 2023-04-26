@@ -2,7 +2,7 @@
     "name": "exercises",
     "version": "1.0.0",
     "scripts": {
-        "start": "ts-node src/7-reverse-integer.ts"
+        "start": "ts-node src/8-string-to-integer-atoi.ts"
     },
     "keywords": ["leetcode", "typescript", "solutions"],
     "author": "BijanProgrammer",
