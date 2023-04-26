@@ -1,0 +1,20 @@
+{
+    "name": "exercises",
+    "version": "1.0.0",
+    "scripts": {
+        "start": "ts-node src/7-reverse-integer.ts"
+    },
+    "keywords": ["leetcode", "typescript", "solutions"],
+    "author": "BijanProgrammer",
+    "devDependencies": {
+        "@typescript-eslint/eslint-plugin": "^5.57.1",
+        "@typescript-eslint/parser": "^5.57.1",
+        "eslint": "^8.37.0",
+        "eslint-config-prettier": "^8.8.0",
+        "eslint-plugin-prettier": "^4.2.1",
+        "prettier": "^2.8.7",
+        "ts-node": "^10.9.1",
+        "typescript": "^5.0.3",
+        "vitest": "^0.30.1"
+    }
+}
