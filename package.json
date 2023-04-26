@@ -2,7 +2,7 @@
     "name": "exercises",
     "version": "1.0.0",
     "scripts": {
-        "start": "ts-node src/13-roman-to-integer.ts"
+        "start": "ts-node src/14-longest-common-prefix.ts"
     },
     "keywords": ["leetcode", "typescript", "solutions"],
     "author": "BijanProgrammer",
