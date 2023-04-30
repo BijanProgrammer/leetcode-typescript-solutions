@@ -1,19 +1,4 @@
-/**
- * Definition for singly-linked list.
- */
-class ListNode {
-    val: number;
-    next: ListNode | null;
-
-    public constructor(val?: number, next?: ListNode | null) {
-        this.val = val === undefined ? 0 : val;
-        this.next = next === undefined ? null : next;
-    }
-
-    public toString(): string {
-        return `${this.val}${this.next?.toString() ?? ''}`;
-    }
-}
+import {ListNode} from './models/list-node.model';
 
 function addTwoNumbers(l1: ListNode | null, l2: ListNode | null): ListNode | null {
     if (l1 === null && l2 === null) return null;
